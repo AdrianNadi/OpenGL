@@ -3,7 +3,7 @@ project(OpenGL)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES src/Application.cpp)
+set(SOURCE_FILES src/Application.cpp src/Renderer.cpp src/Renderer.h src/VertexBuffer.h src/VertexBuffer.cpp src/IndexBuffer.cpp src/IndexBuffer.h src/VertexArray.h src/VertexArray.cpp src/VertexBufferLayout.h src/Shader.h src/Shader.cpp)
 include_directories(${PROJECT_SOURCE_DIR}/GLEW/include)
 include_directories(${PROJECT_SOURCE_DIR}/GLFW/include)
 
